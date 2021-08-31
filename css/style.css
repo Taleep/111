@@ -38,7 +38,6 @@ body{
 	line-height: 19px;
 	font-weight: 400;
 	color: #fff;
-
 }
 
 a{
@@ -132,7 +131,7 @@ button{
 	transition: color .5s;
 }
 
-.phone: hover{
+.phone:hover{
 	color: #CB0E0E;
 }
 
@@ -531,4 +530,140 @@ button{
 
 .slider__arrow-right{
 	right: 75px;
+}
+
+.contact{
+	background-color: #010203;
+	padding-bottom: 100px;
+}
+
+.contact__inner{
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+}
+
+.contact__inner-box1{
+	width: 500px;
+}
+
+.contact__inner-text{
+	font-size: 24px;
+	line-height: 29px;
+	margin-bottom: 80px;
+}
+.contact__inner-text2{
+	font-size: 24px;
+	line-height: 29px;
+}
+
+.contact__inner-box2{
+	width: 600px;
+}
+
+.contact-title{
+	padding-bottom: 46px;
+}
+
+.form-input{
+	background-color: #010203;
+	border: none;
+	border-bottom: 1px solid #fff;
+	margin-bottom: 30px;
+	color: #fff;
+	font-family: 'SFProDisplay';
+	font-size: 14px;
+	line-height: 17px;
+	padding: 20px 0;
+	width: 100%;
+}
+
+.form-input::placeholder{
+	color: #fff;
+	font-family: 'SFProDisplay';
+	font-size: 14px;
+	line-height: 17;
+}
+
+.contact__btn{
+	margin-top: 70px;
+	width: 100%;
+}
+
+.contact__img{
+	display: flex;
+	justify-content: flex-end;
+	margin-left: auto;
+}
+
+.footer{
+	background-image: url(../images/footer-bg.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: top center;
+	padding: 100px 0 150px;
+}
+
+.footer__inner{
+	display: flex;
+	justify-content: flex-end;
+}
+
+.footer-box1{
+	width: 165px;
+	margin-right: 52px;
+}
+
+.footer-text{
+	font-size: 16px;
+	line-height: 19px;
+	margin-bottom: 49px;
+}
+
+.footer-box2{
+	width: 115px;
+	margin-right: 100px;
+}
+
+.footer__item{
+	margin-bottom: 20px;
+}
+
+.footer__link{
+	text-transform: uppercase;
+	font-size: 18px;
+	line-height: 21px;
+	transition: color .5s;
+
+}
+
+.footer__link:hover{
+	color: #CB0E0E;
+}
+
+.phone{
+	font-size: 24px;
+	line-height: 29px;
+	margin-left: auto;
+	transition: color .5s;
+	list-style: none;
+}
+
+.phone:hover{
+	color: #CB0E0E;
+}
+
+.footer__phone{
+	font-size: 16px;
+	line-height: 19px;
+}
+
+@media(max-width: 1024px){
+	.login{
+		margin-right: 0;
+	}
+}
+
+@media(max-width: 895){
+	
 }
